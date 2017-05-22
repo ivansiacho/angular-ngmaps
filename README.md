@@ -2,11 +2,11 @@
 
 Simple angular appliclation using ngmaps 
 
-###Getting Started
+### Getting Started
 
 There are 3 methods for getting started with this repo.
 
-####Familiar with Git?
+#### Familiar with Git?
 Checkout this repo, install dependencies, then start the gulp process with the following:
 
 ```
@@ -18,7 +18,7 @@ Checkout this repo, install dependencies, then start the gulp process with the f
 	> npm start
 ```
 
-####Not Familiar with Git?
+#### Not Familiar with Git?
 Click [here](https://github.com/ivansiacho/firebase-react-chat/archive/master.zip) then download the .zip file.  Extract the contents of the zip file, then open your terminal, change to the project directory, and:
 
 ```
@@ -27,7 +27,7 @@ Click [here](https://github.com/ivansiacho/firebase-react-chat/archive/master.zi
   	> bower install
 	> npm start
 ```
-####Running Tests
+#### Running Tests
 Tests are usign Karma and Jasmine, when all dependencies are loaded go to root folder and run:
 ```
 	> npm run test
