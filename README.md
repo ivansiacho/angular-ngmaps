@@ -13,8 +13,8 @@ Checkout this repo, install dependencies, then start the gulp process with the f
 	> git clone https://github.com/ivansiacho/angular-ngmaps.git
 	> cd angular-ngmaps
 	> npm install
-  > cd app
-  > bower install
+  	> cd app
+  	> bower install
 	> npm start
 ```
 
@@ -23,8 +23,8 @@ Click [here](https://github.com/ivansiacho/firebase-react-chat/archive/master.zi
 
 ```
 	> npm install
-  > cd app
-  > bower install
+  	> cd app
+  	> bower install
 	> npm start
 ```
 ####Running Tests#####
