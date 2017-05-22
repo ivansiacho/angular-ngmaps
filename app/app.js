@@ -1,6 +1,6 @@
 (function () {
   'use strict';
-
+  // import modules
   require('./components/main.js');
 
   angular.module('App', [
@@ -9,7 +9,7 @@
     // modules
     'Main'
   ])
-  .config(['$locationProvider','$routeProvider', function($locationProvider, $routeProvider) {
+  .config(function($locationProvider, $routeProvider) {
       $locationProvider.hashPrefix('!');
       // routes
       $routeProvider
@@ -20,6 +20,5 @@
         .otherwise({
            redirectTo: '/'
         });
-    }
-  ]);
+  });
 })();
