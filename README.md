@@ -1,37 +1,36 @@
-## Welcome to GitHub Pages
+# Angular ngmaps
 
-You can use the [editor on GitHub](https://github.com/ivansiacho/angular-ngmaps/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Simple angular appliclation using ngmaps 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+###Getting Started###
 
-### Markdown
+There are 3 methods for getting started with this repo.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+####Familiar with Git?#####
+Checkout this repo, install dependencies, then start the gulp process with the following:
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+```
+	> git clone https://github.com/ivansiacho/angular-ngmaps.git
+	> cd angular-ngmaps
+	> npm install
+  > cd app
+  > bower install
+	> npm start
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+####Not Familiar with Git?#####
+Click [here](https://github.com/ivansiacho/firebase-react-chat/archive/master.zip) then download the .zip file.  Extract the contents of the zip file, then open your terminal, change to the project directory, and:
 
-### Jekyll Themes
+```
+	> npm install
+  > cd app
+  > bower install
+	> npm start
+```
+####Running Tests#####
+Tests are usign Karma and Jasmine, when all dependencies are loaded go to root folder and run:
+```
+	> npm run test
+```
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ivansiacho/angular-ngmaps/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Check the live example [here](https://ivansiacho.github.io/angular-ngmaps/) or visit https://ivansiacho.github.io/angular-ngmaps/
