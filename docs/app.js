@@ -1,0 +1,1 @@
+!function(){"use strict";require("./components/main.js"),angular.module("App",["ngRoute","Main"]).config(function(n,e){n.hashPrefix("!"),e.when("/",{templateUrl:"./components/main.html",controller:"MainController"}).otherwise({redirectTo:"/"})})}();

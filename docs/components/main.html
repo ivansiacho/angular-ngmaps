@@ -1,0 +1,24 @@
+<div class="checkbox">
+	<button ng-click="onRemoveLine()" class="btn btn-primary remove-button">Remove Line / Logo</button>
+    <label>
+		<input type="checkbox" ng-model="isLogoChecked"> Logo (add logo at midpoint to nearest marker)
+    </label>
+</div>
+<ng-map zoom="13" class="map-container">
+    <marker ng-repeat="address in addresses"
+      position={{address}}
+      title="{{address}}"
+      centered="true"
+      on-click="onMarkerClick()"></marker>
+    <shape name="polyline" id="line"
+      path="{{coordinates}}"
+      geodesic="true"
+      stroke-color="#FF0000"
+      stroke-opacity="1.0"
+      stroke-weight="2">
+    </shape>
+   	<marker position="{{iconCoordinates}}" id="logo"
+      icon="{{iconMarker}}">
+    </marker>
+</ng-map>
+
